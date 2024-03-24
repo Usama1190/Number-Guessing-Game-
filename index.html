@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JQUERY CONNECTED -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- MAIN-BOX START -->
+    <div class="main-box">
+
+        <!-- BOX-1 START -->
+        <div class="box-1">
+            <button type="button" id="btn-1" onclick="forntPage()">Start Game With Usama</button>
+        </div>
+        <!-- BOX-1 END -->
+
+        <!-- BOX-2 START -->
+        <div class="box-2">
+
+            <!-- BOX-3 START -->
+            <div class="box-3">
+                <div class="box-4">
+                    <p class="para-1">Usama's No</p>
+                    <div id="box-4-1">6</div>
+                </div>
+
+                <div class="box-5">
+                    <p class="para-1">Your Predicted No</p>
+                    <div id="box-5-1">4</div>
+                </div>
+            </div>
+            <!-- BOX-3 END -->
+
+            <!-- BOX-6 START -->
+            <div class="box-6">
+                <div id="box-7"></div>
+            
+                <input type="number" maxlength="2" placeholder="Predict no b/w 0 to 10" class="input-1">
+            </div>
+            <!-- BOX-6 END -->
+
+            <button type="button" id="btn-2">Match Predict Number</button>
+        </div>
+        <!-- BOX-2 END -->
+    </div>
+    <!-- MAIN-BOX END -->
+
+    <!-- JAVASCRIPT CONNECTED -->
+    <script src="script.js"></script>
+</body>
+</html>
