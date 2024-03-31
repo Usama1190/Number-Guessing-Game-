@@ -9,7 +9,7 @@ var mechine_generated_number;
 var user_number;
 
 function generateNumber() {
-    mechine_generated_number = parseInt(Math.random() * 11);
+    mechine_generated_number = parseInt(Math.random() * 5 + 1);
 
     document.getElementById('box-4-1').innerHTML = mechine_generated_number;
 }
